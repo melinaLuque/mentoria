@@ -17,7 +17,7 @@ from wrf import (getvar, to_np, get_cartopy, latlon_coords, vertcross,
                  cartopy_xlim, cartopy_ylim, interpline, CoordPair)
 
 wrf_file = Dataset("wrfout_d01_2019-07-10_00_00_00") #wrf elec
-
+aaaa
 # Get the WRF variables
 ht = getvar(wrf_file, "z", timeidx=None)
 dbz = getvar(wrf_file, "dbz", timeidx=None)
